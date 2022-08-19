@@ -94,7 +94,7 @@ def sgd(features, outputs):
 
 
 def init():
-    data = pd.read_csv('./datasets/breastCancer/data.csv')
+    data = pd.read_csv('./data.csv')
     # SVM only accepts numerical values.
     # Therefore, we will transform the categories M and B into
     # values 1 and -1 (or -1 and 1), respectively.
